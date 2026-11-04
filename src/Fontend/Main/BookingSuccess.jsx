@@ -20,6 +20,7 @@ const BookingSuccess = () => {
     { label: "Barber", value: state?.barber || "Any Available Barber", icon: IoPersonOutline },
     { label: "Customer Name", value: state?.name || "Guest", icon: IoPersonOutline },
     { label: "Phone Number", value: state?.phone || "Not provided", icon: IoCallOutline },
+    { label: "Payment Method", value: state?.paymentMethod || "Not selected", icon: IoHeartOutline },
   ];
 
   return (
@@ -65,7 +66,7 @@ const BookingSuccess = () => {
           <IoHome aria-hidden="true" /> Back to Home
         </Link>
         <p className="mt-4 text-sm text-center text-gray-400">
-          Thank you for choosing StyleCut 🧡
+          Thank you for choosing StyleCut ❤️
         </p>
       </section>
     </main>

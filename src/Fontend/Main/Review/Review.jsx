@@ -2,40 +2,40 @@ import { IoStar } from "react-icons/io5";
 
 const reviews = [
   {
-    name: "Sample Customer",
+    name: "K.Rahul",
     service: "Classic Cut",
     rating: 5,
-    text: "Demo review: replace this with feedback from a real customer.",
+    text: "Excellent service! The barber arrived on time, understood exactly what hairstyle I wanted, and did a fantastic job. The experience was smooth and convenient.",
   },
   {
-    name: "Sample Customer",
+    name: "M.Arjun",
     service: "Fade Style",
     rating: 5,
-    text: "Demo review: add a genuine customer comment about their visit here.",
+    text: "I really loved the service. Booking an appointment was very easy, and the barber was professional and friendly. Definitely a great experience!",
   },
   {
-    name: "Sample Customer",
+    name: "R.Karthik",
     service: "Beard Trim",
     rating: 4,
-    text: "Demo review: update this card with verified customer feedback.",
+    text: "Style Cut made grooming so simple. I could choose my preferred service, book a time, and enjoy a professional haircut at home.",
   },
   {
-    name: "Sample Customer",
+    name: "Sai Teja",
     service: "Hot Towel Shave",
     rating: 5,
-    text: "Demo review: add a real customer's thoughts about the shave experience.",
+    text: "Very convenient booking process and excellent grooming service. The barber was punctual and maintained good hygiene.",
   },
   {
-    name: "Sample Customer",
+    name: "P.Naveen",
     service: "Kids Cut",
     rating: 5,
-    text: "Demo review: replace with verified feedback from a parent or guardian.",
+    text: "Style Cut made grooming so simple. I could choose my preferred service, book a time, and enjoy a professional haircut at home.",
   },
   {
-    name: "Sample Customer",
+    name: "S.Rohith",
     service: "Home Visit",
-    rating: 4,
-    text: "Demo review: replace with genuine feedback about the home visit service.",
+    rating: 5,
+    text: "Amazing experience from booking to service completion. Friendly barber, great styling, and reasonable pricing. Will definitely book again!",
   },
 ];
 
@@ -50,7 +50,7 @@ const Review = () => {
           What Customers <span className="text-[#E8D0A1]">Say</span>
         </h2>
         <p className="mx-auto mt-2 max-w-xl text-sm text-[#BDB8AF]">
-          Sample reviews for preview only. Replace these with real customer feedback before publishing.
+  
         </p>
       </header>
 

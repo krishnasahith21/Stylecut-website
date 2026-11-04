@@ -14,13 +14,15 @@ import BookingSuccess from "../Main/BookingSuccess";
 import Details from "../Main/details";
 import Confirm from "../Main/confirm";
 import Login from "../Main/Login";
+import Orders from "../Main/Orders";
 import NotFound from "../Main/NotFound";
 
 const AppRoutes = () => {
   return (
     <Routes>
+      <Route index element={<Login />} />
+      <Route path="login" element={<Login />} />
       <Route element={<PagesWithNavbar />}>
-        <Route index element={<Login />} />
         <Route path="home" element={<Home />} />
         <Route path="services" element={<Services />} />
         <Route path="styles" element={<Styles />} />
@@ -31,10 +33,10 @@ const AppRoutes = () => {
         <Route path="booking" element={<Book />} />
         <Route path="where" element={<Where />} />
         <Route path="appointment" element={<Appointment />} />
+        <Route path="orders" element={<Orders />} />
         <Route path="booking-success" element={<BookingSuccess />} />
         <Route path="details" element={<Details />} />
         <Route path="confirm" element={<Confirm />} />
-        <Route path="login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
